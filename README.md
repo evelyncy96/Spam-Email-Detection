@@ -20,8 +20,6 @@
 
 ### Conclusion
 
-##### The results I found are demonstrated below:
-
 - For the first scenario, I first used Nested CV to find the best models among several classificatino models, such as **Decision Tree/ Logistic Regression/ LightGBM/ XGBoost/ Support Vector Classifier.** The result shows that XGBoost is the best model. Therefore I conducted hyperparameter tuning to find the best parameter of XGBoost which is {'estimator__colsample_bytree': 0.3, 'estimator__learning_rate': 0.01, 'estimator__max_depth': 3, 'estimator__n_estimators': 300, 'estimator__objective': 'binary'}. The accuracy of this model is 95.7% on training set and 94.6% on testing set. **I also built deep neural network and use kera-tuner to find the best number of layers, nodes and learning rate, but the accuracy of DNN model after tuning is 92.18%.** To sum up, we conclude that **XGBoost is the best model we found under the first scenario.** 
 
 - For the second scenario, I repeated the process as I did in the previous scenario. I first used nested CV to find the best models among those same classificatino models and conducted hyperparameter tuning to find the best parameter of that specific model. The best performance I found is the 99.8% on training set and 96.6% on testing set. And the best model is LightGBM with parameter {'estimator__colsample_bytree': 0.3, 'estimator__learning_rate': 0.01, 'estimator__max_depth': 3, 'estimator__n_estimators': 300, 'estimator__objective': 'binary'}. I also draw the ROC curve and Lift Curve to show the performance of final model. To sum up, we conclude that **LightGBM is the best model we found in terms of the cost-sensitive scenario.**
