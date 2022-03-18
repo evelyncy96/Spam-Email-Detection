@@ -1,6 +1,6 @@
 # Spam-Email-Detection
 
-- **Goal:** Build classification to detect whether an email is spam or not
+- **Goal:** Build classification model to detect whether an email is spam or not
 - **Data source:** <http://archive.ics.uci.edu/ml/datasets/Spambase>
 - **Model:** Support Vector Classifier/ XGBoost/ LightGBM/ Deep Neural Network/ Decision Tree/ Logistic Regression
 
