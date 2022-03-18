@@ -5,7 +5,7 @@
 - **Model:** Support Vector Classifier/ XGBoost/ LightGBM/ Deep Neural Network/ Decision Tree/ Logistic Regression
 
 ### In this project we consider two scenarios:
-1. What is the best model **in terms of the overall predictive accuracy** and what's the best hyperparameter of that model?
+1. What is the best model **in terms of the overall prediction accuracy** and what's the best hyperparameter of that model?
 2. What is the best model **in terms of the cost sensitive condition** and what's the best hyperparameter of that model?
 
 ### Process
